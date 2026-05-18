@@ -5,7 +5,6 @@ WORKDIR /app
 ENV PYTHONPATH=/app/src
 ENV PYTHONUNBUFFERED=1
 
-COPY pyproject.toml README.md ./
 COPY src ./src
 
 EXPOSE 8000
